@@ -67,7 +67,7 @@ print (x['marks'])
 Dict = {'a':1,'b':2,'c':3,'v':4}
 # print(Dict)
 if 'v' in Dict:
-    del Dict['v']
+    # del Dict['v']
 print(Dict)
 
 
