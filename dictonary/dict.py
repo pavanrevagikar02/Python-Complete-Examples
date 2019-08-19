@@ -64,10 +64,10 @@ print(x)
 print (x.get('marks'))
 print (x['marks'])
 
-Dict = {'a':1,'b':2,'c':3,'d':4}
+Dict = {'a':1,'b':2,'c':3,'v':4}
 # print(Dict)
-if 'a' in Dict:
-    del Dict['a']
+if 'v' in Dict:
+    del Dict['v']
 print(Dict)
 
 
