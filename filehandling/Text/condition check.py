@@ -1,0 +1,8 @@
+f=open('../fffff.txt','w')
+print('name',f.name)
+print('mode',f.mode)
+print('closed',f.closed)
+print('readable',f.readable())
+print('writeable',f.writable())
+f.close()
+print('closed',f.closed)
