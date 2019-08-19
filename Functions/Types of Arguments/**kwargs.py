@@ -20,5 +20,5 @@
 
 
 def test(*a,**b):
-    print(a,b)
-test(10,b=20,c=8)
+    print(a[1]+b['b']+b['c'])
+test(10,20,b=20,c=8)
